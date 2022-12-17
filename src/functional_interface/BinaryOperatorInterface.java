@@ -3,7 +3,6 @@ package functional_interface;
 import java.util.function.BinaryOperator;
 
 public class BinaryOperatorInterface {
-
 	
 	public static void main(String[] args) {
 		
