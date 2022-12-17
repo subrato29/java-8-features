@@ -1,4 +1,4 @@
-package lambda_concept;
+package lambdaConcept;
 
 import java.util.Arrays;
 import java.util.List;

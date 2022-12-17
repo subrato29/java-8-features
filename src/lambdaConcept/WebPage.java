@@ -1,4 +1,4 @@
-package lambda_concept;
+package lambdaConcept;
 
 /**
  * 
