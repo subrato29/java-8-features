@@ -3,7 +3,7 @@ package stream;
 import java.util.Arrays;
 import java.util.List;
 
-public class StramFilter_FindAny_OrElse {
+public class StreamFilter_FindAny_OrElse {
 
     public static void main(String[] args) {
 
@@ -16,10 +16,11 @@ public class StramFilter_FindAny_OrElse {
         );
 
         //Single condition
-        Customer customer = customerList.stream()
-            .filter(x -> "Harry".equals(x.getName()))
-            .findAny()
-            .orElse(null);
+        Customer customer = customerList
+                .stream()
+                .filter(x -> "Harry".equals(x.getName()))
+                .findAny()
+                .orElse(null);
 
         System.out.println(customer.getName() + " " + customer.getAge());
 

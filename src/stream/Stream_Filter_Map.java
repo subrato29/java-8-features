@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Stram_Filter_Map {
+public class Stream_Filter_Map {
 
     public static void main(String[] args) {
 
