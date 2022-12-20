@@ -13,3 +13,7 @@ R - the type of the result of the function
 public interface Function<T,R>
 
 ```
+
+Important links
+-------------------------------------
+https://www.geeksforgeeks.org/stream-in-java/
