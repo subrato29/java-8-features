@@ -1,6 +1,8 @@
 package streamSequentialAndParallel;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -60,6 +62,11 @@ public class SequentialStream {
                 .limit(10)
                 .forEach(System.out::println);
 
+        //Array to list conversion in Java 1.8
+        int[] arr = {2, 4, 5};
+        System.out.println(Arrays.stream(arr)
+                .boxed()
+                .collect(Collectors.toList()));
     }
 
 }
