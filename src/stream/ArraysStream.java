@@ -1,3 +1,5 @@
+package stream;
+
 import java.util.Arrays;
 import java.util.stream.Stream;
 
@@ -11,7 +13,7 @@ import java.util.stream.Stream;
  * stream(T[] array, int start, int end)
  */
 
-public class arraysStream {
+public class ArraysStream {
 
     public static void main( String args[] ) {
         String[] arr = { "I", "work", "at", "Educative", "Axis" };
